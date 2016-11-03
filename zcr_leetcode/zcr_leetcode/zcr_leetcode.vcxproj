@@ -66,6 +66,11 @@
   <ItemGroup>
     <ClCompile Include="maincpp.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="leetcode_1.h" />
+    <ClInclude Include="leetcode_3.h" />
+    <ClInclude Include="leetcode_6.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
