@@ -71,6 +71,7 @@
     <ClInclude Include="leetcode_2.h" />
     <ClInclude Include="leetcode_3.h" />
     <ClInclude Include="leetcode_4.h" />
+    <ClInclude Include="leetcode_5.h" />
     <ClInclude Include="leetcode_6.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
