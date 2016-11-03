@@ -1,4 +1,4 @@
-#include "leetcode_6.h"
+#include "leetcode_2.h"
 int main()
 {
 	Solution *test=new Solution();
