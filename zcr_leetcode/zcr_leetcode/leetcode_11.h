@@ -1,4 +1,4 @@
-//Container With Most Water
+//11.Container With Most Water
 //Given n non - negative integers a1, a2, ..., an, 
 //where each represents a point at coordinate(i, ai).
 //n vertical lines are drawn such that the two endpoints of line i is at(i, ai) and(i, 0).
@@ -13,7 +13,7 @@ using namespace std;
 class Solution {
 public:
 	int maxArea(vector<int>& height) {
-		//O(n^2)
+		//O(n^2) ³¬Ê±
 		int result = 0;
 		for (int pre = 0; pre < height.size()-1; pre++)
 		{
@@ -40,7 +40,7 @@ public:
 				
 				result = area > result ? area : result;
 				 
-				while (  height[pre] <= h&&pre < post) ++pre;
+				while (height[pre] <= h&&pre < post) ++pre;
 				while (height[post] <= h&&pre < post) --post;
 		}
 		return result;
