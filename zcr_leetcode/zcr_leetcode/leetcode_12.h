@@ -56,8 +56,6 @@ public:
 		return val;
 	}
 
-
-
 	void test()
 	{
 		
