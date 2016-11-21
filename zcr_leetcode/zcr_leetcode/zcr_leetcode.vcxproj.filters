@@ -56,5 +56,11 @@
     <ClInclude Include="leetcode_13.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="leetcode_14.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="leetcode_15.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
