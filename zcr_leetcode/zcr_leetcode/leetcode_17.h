@@ -15,21 +15,41 @@
 using namespace std;
 class Solution {
 public:
-
+	
 	vector<string> letterCombinations(string digits) {
-		vector<string> result = {"nihao"};
+		if (digits.length()<1)
+		{
+			vector<string> no = {};
+			return no;
+		}
+		vector<string> result= {""};
+		vector<string> letters = { "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };
 		for (int i = 0; i < digits.length(); i++)
 		{
-			printf("%d",i);
+			vector<string> store;
+			for (int i_store = 0; i_store < letters[digits[i]-'2'].length(); i_store++)
+			{
+				vector<string> result_temp(result);
+				for (int i_result_temp = 0; i_result_temp < result_temp.size(); i_result_temp++)
+				{
+					store.push_back(result_temp[i_result_temp]+letters[digits[i] - '2'][i_store]);
+				}				
+			}
+			
+			result = store;
+
 		}
 		return result;
 	}
 	void test()
 	{
 
-		string digits = "234";
+		string digits = "23";
 		vector<string> result = this->letterCombinations(digits);
-
+		for (int i = 0; i < result.size(); i++)
+		{
+			cout << result[i] << endl;
+		}
 		system("pause");
 	}
 };
