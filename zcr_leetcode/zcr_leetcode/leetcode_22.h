@@ -70,7 +70,7 @@ public:
 	void test()
 	{
 
-		vector<string> result = this->generateParenthesis(3);
+		vector<string> result = this->generateParenthesis(4);
 		for (int i = 0; i < result.size(); i++)
 		{
 			cout << result[i] << endl;
