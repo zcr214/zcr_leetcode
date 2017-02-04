@@ -80,6 +80,8 @@
     <ClInclude Include="leetcode_21.h" />
     <ClInclude Include="leetcode_22.h" />
     <ClInclude Include="leetcode_24.h" />
+    <ClInclude Include="leetcode_28.h" />
+    <ClInclude Include="leetcode_29.h" />
     <ClInclude Include="leetcode_3.h" />
     <ClInclude Include="leetcode_4.h" />
     <ClInclude Include="leetcode_5.h" />
