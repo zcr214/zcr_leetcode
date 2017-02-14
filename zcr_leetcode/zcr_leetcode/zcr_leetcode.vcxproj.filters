@@ -92,5 +92,8 @@
     <ClInclude Include="leetcode_31.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="leetcode_38.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
